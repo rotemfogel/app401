@@ -15,7 +15,7 @@ import static org.asynchttpclient.Dsl.asyncHttpClient;
  * Hello world!
  */
 public class App {
-    private final static String URL = "https://api.upstreamsecurity.io/api/v1/violations";
+    private final static String URL = "http://localhost:8088/api/v1/violations";
     private static final Logger logger = LoggerFactory.getLogger(App.class);
     public static void main(String[] args) throws Exception {
         AsyncHttpClient asyncHttpClient = asyncHttpClient();

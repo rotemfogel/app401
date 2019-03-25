@@ -1,7 +1,7 @@
 'use strict';
 
 const request = require('request');
-let url = 'https://api.upstreamsecurity.io/api/v1/violations';
+let url = 'http://localhost:8088/api/v1/violations';
 if (process.argv.length > 2) {
 	url = process.argv[2]
 }

@@ -1,4 +1,4 @@
 #!/bin/bash
-curl https://api.upstreamsecurity.io/api/v1/violations | jq .
+curl http://localhost:8088/api/v1/violations | jq .
 sleep 2
-curl -vv https://api.upstreamsecurity.io/api/v1/violations
+curl -vv http://localhost:8088/api/v1/violations

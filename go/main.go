@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	var url = "https://api.upstreamsecurity.io/api/v1/violations"
+	var url = "http://localhost:8088/api/v1/violations"
 	if (len(os.Args) > 1) {
 		url = os.Args[1]
 	}
