@@ -15,6 +15,48 @@ java/.mvn/timing.properties
 *.iml
 *.ipr
 *.iws
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+### angular
+
+# compiled output
+angular/dist
+angular/tmp
+angular/out-tsc
+# Only exists if Bazel was run
+angular/bazel-out
+
+# dependencies
+angular/node_modules
+
+# profiling files
+angular/chrome-profiler-events.json
+angular/speed-measure-plugin.json
+
+# IDEs and editors
+
+# misc
+angular/.sass-cache
+angular/connect.lock
+angular/coverage
+angular/libpeerconnection.log
+angular/npm-debug.log
+angular/yarn-error.log
+angular/testem.log
+angular/typings
 
 ### js
 js/node_modules
